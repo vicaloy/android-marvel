@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/characters_navigation"
+    app:startDestination="@id/charactersFragment">
+
+    <fragment
+        android:id="@+id/charactersFragment"
+        android:name="com.example.marvel.ui.character.search.CharactersFragment"
+        android:label="@string/title_character">
+        <deepLink app:uri="marvel://characters" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="com.example.marvel.ui.character.detail.CharacterDetailFragment"
+        android:label="@string/title_character">
+        <deepLink app:uri="marvel://characterDetail/{characterId}" />
+        <argument
+            android:name="characterId"
+            app:argType="long" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/charactersDialogFragment"
+        android:name="com.example.marvel.ui.character.search.CharactersDialogFragment"
+        android:label="CharactersDialogFragment">
+        <deepLink app:uri="marvel://characters/dialog" />
+    </dialog>
+
+</navigation>

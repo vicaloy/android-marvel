@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="show_alert">Alert</string>
+    <string name="show_alert_characters">Alert Characters</string>
+    <string name="alert_title_series">Alert Title</string>
+</resources>
