@@ -2,6 +2,8 @@
 
 This is an Android app built with a multi-module architecture to display Marvel characters, including their details and comics. The app uses DeepLinks to navigate between modules, ViewModel for managing UI-related data, Paging3 for efficient pagination of large data sets, and a combination of XML and Compose for the UI.
 
+- 🌐 URL: https://developer.marvel.com
+
 ## 🛠️ Technologies Used
 
 - Kotlin: Primary language for Android development.
